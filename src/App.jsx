@@ -1,5 +1,7 @@
 
-import Navbar from './Navbar'
+import Navbar from './components/Hero'
+
+
 
 function App() {
 
