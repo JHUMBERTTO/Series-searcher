@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import logo from '../assets'
-import Hero from './Pelicula'
+import Pelicula from './Pelicula'
 
 
 
-export default function Navbar() {
+export default function Hero() {
   const [value, setValue] = useState('')
   const [data, setData] = useState([])
 
@@ -43,7 +43,7 @@ export default function Navbar() {
             </form>
           </div>
       </nav>
-      <Hero data={data}/>
+      <Pelicula data={data}/>
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-export default function Hero(props) {
+export default function Pelicula(props) {
   return (
     <>  
     {props.data.length === 0 ? <p className='flex justify-center font-bold text-white'>Busca tu pelicula para empezar!</p> : 
